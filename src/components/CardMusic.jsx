@@ -4,6 +4,7 @@ import { MdAlbum } from "react-icons/md";
 import {Link } from 'react-router-dom'
 const CardMusic = ({object}) => {
   return (
+    
     <div className='border border-slate-300 rounded-md p-4'>
         <h1 className='text-lg bold'>Title Music</h1>
         <div className='flex gap-1 items-center'>
@@ -18,6 +19,7 @@ const CardMusic = ({object}) => {
           <Link to={'/details'} className='block w-full text-center bg-slate-800 text-white py-2'>View Lyrics</Link>
         </div>
     </div>
+    
   )
 }
 
