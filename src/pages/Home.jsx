@@ -1,8 +1,14 @@
 import React from 'react'
+import WrapperMusic from '../components/WrapperMusic'
+import CardMusic from '../components/CardMusic'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <WrapperMusic>
+        <CardMusic object={''}/>
+      </WrapperMusic>
+    </>
   )
 }
 
