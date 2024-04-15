@@ -9,6 +9,7 @@ const Lyrics = () => {
                        <p className="mr-20">Anneé publie:	18 janvier 2010</p>
                        <p className="mr-20">Genre:Synthpop, RnB, hip-hop</p>
                        <p className="mr-20">Durée	3:36</p>
+                       <p className="mr-20">autre</p>
                     </div>
             <p className="text-xl font-medium text-center pt-5"><strong>Baby</strong> by : justin bieber</p>
             <div className="container shadow-2xl flex justify-center  w-full h-3/4 bg-gray-300 overflow-hidden">
