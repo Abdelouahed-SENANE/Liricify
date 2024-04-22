@@ -1,19 +1,8 @@
 import React from 'react';
-// import { Consumer } from '../../context';
 
-const Search =()=>{
-    // state = {
-    //     trackTitle: ''
-    // };
-;
-    // onChange = e => {
-    //     this.setState({ [e.target.name]: e.target.value });
-    // };
+const Search =({onChange})=>{
 
-    // render() {
-        // return (
-        //     <Consumer>
-        //         {value => {
+
             return (
                 <div className="container mx-auto px-4 py-8">
                     <div className="max-w-md mx-auto bg-white rounded-lg overflow-hidden shadow-lg">
@@ -23,13 +12,14 @@ const Search =()=>{
                             </h1>
                             <p className="text-gray-700 text-base text-center mb-4">Get the lyrics for any song</p>
                             <form>
-                                <div className="flex items-center border-b border-b-2 border-gray-500 py-2">
+                                <div className="flex items-center border-b  border-gray-500 py-2">
                                     <input
                                         type="text"
                                         className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
                                         placeholder="Enter song title..."
                                         name="trackTitle"
-                                      
+                                        onChange={onChange}
+
                                     />
                                     <button
                                         type="submit"

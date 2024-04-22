@@ -1,12 +1,11 @@
-import React from 'react'
-import Lyrics from '../components/Lyrics'
+import React from "react";
+import Lyrics from "../components/Lyrics";
 const Details = () => {
-  return (
-    <>
-    <Lyrics/>
-    
-  </>
-  )
-}
+    return (
+        <>
+            <Lyrics />
+        </>
+    );
+};
 
-export default Details
+export default Details;
